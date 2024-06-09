@@ -25,7 +25,7 @@
                                         Navbar.Component.jsx
     >> PaymentModal                     PaymentModal.Component.jsx
     >> PlayFilters                      PlayFilters.Component.jsx
-    >> Posters                          Posters.Component.jsx
+    >> Poster                           Posters.Component.jsx
     >> PosterSlider                     PosterSlider.Component.jsx
 
 ## Commands:
