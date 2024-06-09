@@ -42,7 +42,9 @@ function NavLg(){
             <div className='flex items-center gap-3'>
               <span className='text-gray-200 text-base flex items-center cursor-pointer hover:text-white'>Banglore <BiChevronDown /></span>
               <button className='bg-red-600 text-white px-2 py-1 text-sm rounded'>Sign In</button>
-              <BiMenu className='w-full h-full'/>
+              <div className='w-8 h-8 text-white'>
+                    <BiMenu className='w-full h-full' />
+                </div>
             </div>
         </div>
     </>
