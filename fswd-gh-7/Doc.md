@@ -16,7 +16,7 @@
 ## Components:
 
     >> Cast                             Cast.Component.jsx
-    >> Entertainmnet                    EntertainmentCard.Component.jsx
+    >> Entertainment                    EntertainmentCard.Component.jsx
     >> HeroCarousel                     HeroCarousel.Component.jsx
                                         Arrows.Component.jsx
     >> MovieHero                        MovieHero.Component.jsx
