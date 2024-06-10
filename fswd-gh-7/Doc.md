@@ -16,7 +16,7 @@
 ## Components:
 
     >> Cast                             Cast.Component.jsx
-    >> Entertainmnet                    EntertainmentCard.Component.jsx
+    >> Entertainment                    EntertainmentCard.Component.jsx
     >> HeroCarousel                     HeroCarousel.Component.jsx
                                         Arrows.Component.jsx
     >> MovieHero                        MovieHero.Component.jsx
@@ -25,7 +25,7 @@
                                         Navbar.Component.jsx
     >> PaymentModal                     PaymentModal.Component.jsx
     >> PlayFilters                      PlayFilters.Component.jsx
-    >> Posters                          Posters.Component.jsx
+    >> Poster                           Posters.Component.jsx
     >> PosterSlider                     PosterSlider.Component.jsx
 
 ## Commands:
@@ -48,3 +48,4 @@
     >> npmjs.com/package/axios
     >> https://headlessui.com/react/dialog
     >> https://react-icons.github.io/react-icons/
+    >> https://razorpay.com/docs/payments/payments/test-card-details/
