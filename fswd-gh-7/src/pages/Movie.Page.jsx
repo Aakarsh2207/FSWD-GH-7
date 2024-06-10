@@ -141,14 +141,12 @@ const MoviePage = () => {
         </div>
 
 
-        <div className="my-8">
-          <h1>BMS XCLUSIVE Movies</h1>
-        </div>
-
-
-        <div className="my-8">            {/* Horizonatal Line */}
-          <hr />
-        </div>
+        <PosterSlider
+          config={settings}
+          title="BMS XCLUSIVE Movies"
+          posters={recommendedMovies}
+          isDark={false}
+        />
       </div>
     </>
   )
