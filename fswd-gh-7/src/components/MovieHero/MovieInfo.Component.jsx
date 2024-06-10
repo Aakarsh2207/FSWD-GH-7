@@ -1,27 +1,27 @@
 import React, { useState, useContext } from "react";
 import { MovieContext } from "../../context/Movie.context";
-// import PaymentModel from "../PaymentModel/PaymentModel.Component";
+import PaymentModel from "../PaymentModel/PaymentModel.Component";
 
 
 
 const MovieInfo = ({movie}) => {
-    const { price, setIsOpen, isOpen, rentMovie, buyMovie } = useContext(MovieContext);
-    // const [isOpen, setIsOpen] = useState(false);
-  // const [price, setPrice] = useState(0);
+    // const { price, setIsOpen, isOpen, rentMovie, buyMovie } = useContext(MovieContext);
+    const [isOpen, setIsOpen] = useState(false);
+  const [price, setPrice] = useState(0);
   const genres = movie.genres?.map(({ name }) => name).join(", ");
 
-  // const rentMovie = () => {
-  //   setIsOpen(true);
-  //   setPrice(149);
-  // };
+  const rentMovie = () => {
+    setIsOpen(true);
+    setPrice(149);
+  };
 
-  // const buyMovie = () => {
-  //   setIsOpen(true);
-  //   setPrice(599);
-  // };
+  const buyMovie = () => {
+    setIsOpen(true);
+    setPrice(599);
+  };
 
   return <>
-      {/* <PaymentModel setIsOpen={setIsOpen} isOpen={isOpen} price={price} />; */}
+      <PaymentModel setIsOpen={setIsOpen} isOpen={isOpen} price={price} />;
       <div className="flex flex-col gap-8">
         <h1 className="text-white text-5xl font-bold">{movie.original_title}</h1>
         <div className="text-white flex flex-col gap-2">
